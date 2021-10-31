@@ -1,0 +1,19 @@
+div {
+  background-color: hsl(220, 16%, 96%);
+  padding: 0 10px;
+  @media screen and (max-width: 768px) {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+h1 {
+  color: hsl(233, 26%, 24%);
+  font-weight: 300;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+  font-weight: 300;
+}

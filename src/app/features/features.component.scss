@@ -1,0 +1,29 @@
+section {
+  background-color: hsl(220, 16%, 96%);
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+h1 {
+  color: hsl(233, 26%, 24%);
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 25px;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+  font-weight: 400;
+  width: 50%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}

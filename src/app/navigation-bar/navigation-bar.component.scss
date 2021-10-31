@@ -1,0 +1,35 @@
+section {
+  margin: auto;
+  width: 80%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.mat-toolbar {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  .mat-button {
+    border-bottom: solid 5px hsl(0, 0%, 100%);
+    border-radius: 0;
+    color: hsl(233, 8%, 62%);
+    font-family: "Public Sans";
+    font-weight: 400;
+    &:hover {
+      border-bottom: solid 5px hsl(136, 65%, 51%);
+      border-image: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+      border-image-slice: 1;
+      color: hsl(233, 26%, 24%);
+    }
+  }
+}
+
+::ng-deep {
+  .mat-button-focus-overlay {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,10 @@
+.mat-button {
+  background: linear-gradient(90deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Public Sans";
+  font-weight: 700;
+  &:hover {
+    opacity: 50%;
+  }
+}

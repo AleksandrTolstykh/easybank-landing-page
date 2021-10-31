@@ -1,0 +1,64 @@
+section {
+  background-color: hsl(233, 26%, 24%);
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
+}
+
+.buttons {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
+}
+
+.mat-button {
+  color: hsl(0, 0%, 100%);
+  font-family: "Public Sans";
+  font-weight: 400;
+  &:hover {
+    color: hsl(136, 65%, 51%);
+    opacity: 50%;
+  }
+}
+
+.request {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+  }
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+svg {
+  margin: 30px 5px;
+  &:hover {
+    cursor: pointer;
+    path {
+      fill: hsl(136, 65%, 51%, 50%);
+    }
+  }
+}
